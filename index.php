@@ -7,33 +7,27 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="img/slider.jpg">
+                <img src="img/grupo-conceito-1.jpg">
                 <div class="carousel-caption titulos-de-contexto">
-                    <h1>Titulo</h1>
-                    <p>Descrição</p>
+                    <h1>Cliente satisfeito</h1>
+                    <p>Atendimento de alto padrão com resultados reais</p>
                 </div>
             </div>
             <div class="item">
-                <img src="img/slider.jpg" >
+                <img src="img/grupo-conceito-2.jpg" >
                 <div class="carousel-caption titulos-de-contexto">
-                    <h1>Titulo</h1>
-                    <p>Descrição</p>
+                    <h1>Somos especialistas</h1>
+                    <p>Em qualquer circunstância, o nosso principal foco são os seus direitos</p>
                 </div>
             </div>
             <div class="item">
-                <img src="img/slider.jpg" >
+                <img src="img/grupo-conceito-3.jpg" >
                 <div class="carousel-caption titulos-de-contexto">
-                    <h1>Titulo</h1>
-                    <p>Descrição</p>
+                    <h1>Construindo confiança</h1>
+                    <p>A transparência é a base de nosso trabalho</p>
                 </div>
             </div>
-            <div class="item">
-                <img src="img/slider.jpg" >
-                <div class="carousel-caption titulos-de-contexto">
-                    <h1>Titulo</h1>
-                    <p>Descrição</p>
-                </div>
-            </div>
+
         </div>
 
         <!-- Controls -->
@@ -70,35 +64,37 @@
                 <div class="carousel-inner ">
                     <div class="item active">
                         <div class="conteudo-de-texto col-md-4">
-                            <img class="thumbnail imagem-carousel" src="img/grupo.png">
+                            <img class="thumbnail imagem-carousel" src="img/icone__missão.png">
                         </div>
                         <div class="conteudo-de-texto col-md-8">
                             <h2>MISSÃO:</h2>
-                            <p>A nossa missão é resolver problemas e solucionar necessidades de marketing de
-                                empresas e profissionais liberais que procuram agregar valor ao seu produto/serviço e
-                                alcançar mais competitividade no mercado garantindo uma boa imagem corporativa.</p>
+                            <p>Dispomos colocar a nossa energia e tempo a favor de suas necessidades.
+                                O nosso objetivo central é fazer de tudo para solucionar seus problemas d
+                                e forma eficaz e justa.</p>
                         </div>
                     </div>
                     <div class="item">
                         <div class="conteudo-de-texto col-md-4">
-                            <img class="thumbnail imagem-carousel" src="img/grupo.png">
+                            <img class="thumbnail imagem-carousel" src="img/icone__Visão.png">
                         </div>
                         <div class="conteudo-de-texto col-md-8">
-                            <h2>MISSÃO</h2>
-                            <p>A nossa missão é resolver problemas e solucionar necessidades de marketing de
-                                empresas e profissionais liberais que procuram agregar valor ao seu produto/serviço e
-                                alcançar mais competitividade no mercado garantindo uma boa imagem corporativa.</p>
+                            <h2>VISÃO:</h2>
+                            <p>Somos especialistas organizados, flexíveis e dedicados.
+                                Responsabilidade e êxito completam o nosso perfil. </p>
                         </div>
                     </div>
                     <div class="item">
                         <div class="conteudo-de-texto col-md-4">
-                            <img class="thumbnail imagem-carousel" src="img/grupo.png">
+                            <img class="thumbnail imagem-carousel" src="img/icone__valores.png">
                         </div>
                         <div class="conteudo-de-texto col-md-8">
-                            <h2>MISSÃO</h2>
-                            <p>A nossa missão é resolver problemas e solucionar necessidades de marketing de
-                                empresas e profissionais liberais que procuram agregar valor ao seu produto/serviço e
-                                alcançar mais competitividade no mercado garantindo uma boa imagem corporativa.</p>
+                            <h2>VALORES:</h2>
+                            <ol>
+                                <li>Ética e integridade na condução de nossos serviços. </li>
+                                <li>Respeito nas nossas relações pessoais e profissionais. </li>
+                                <li>Compromisso com nossos clientes. </li>
+                                <li>Organização e efetividade nos serviços a nós confiados.</li>
+                            </ol>
                         </div>
                     </div>
 
@@ -109,46 +105,48 @@
         </div>
     </section><!--  o grupo conceito -->
 
-    <section id="servicos" class="servicos content">
+    <section id="servicos" class="servicos">
         <div class="row">
             <div class="titulos-de-contexto">
                 <h1>Serviços</h1>
                 <hr id="hr1"><hr id="hr2">
             </div>
         </div>
-        <div class="row">
-            <div class="bloco-servico ">
-                <div class="col-md-3  col-sm-6  ">
-                    <div class="item-servico espaco">
-                        <span class="icon-Add-Shopping-Cart">
-                            <span class="path9"></span>
-                        </span>
-                        Lorem Ipsum
-                        caixa de conteudo
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 ">
-                    <div class="item-servico  espaco">
-                        <span class="icon-Alarm"> </span>
-                        Lorem Ipsum
-                        caixa de conteudo
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 ">
-                    <div class="item-servico  espaco">
-                        <span class="icon-Alarm"> </span>
-                        Lorem Ipsum
-                        caixa de conteudo
-                    </div>
-                </div>
-                <div class="col-md-3  col-sm-6 ">
-                    <div class="item-servico espaco">
-                        <span class="icon-Alarm"> </span>
-                        Lorem Ipsum
-                        caixa de conteudo
-                    </div>
-                </div>
 
+        <div class="bloco-servico ">
+            <div class="row">
+                <div class="servico-item col-md-3">
+                    <img class="servicos-img" src="img/direito-trabalhista.png" >
+                    <p class="servicos-descricao">Direito Trabalhista</p>
+                </div>
+                <div class="servico-item col-md-3">
+                    <img class="servicos-img" src="img/direito-civil.png" >
+                    <p class="servicos-descricao">Direito Civil</p>
+                </div>
+                <div class="servico-item col-md-3">
+                    <img class="servicos-img" src="img/Direito-Tributa.png" >
+                    <p class="servicos-descricao">Direito Tributário</p>
+                </div>
+                <div class="servico-item col-md-3">
+                    <img class="servicos-img" src="img/Direito-do-consumidor.png" >
+                    <p class="servicos-descricao">Direito do Consumidor</p>
+                </div>
+                <div class="servico-item col-md-3 col-sm-6 ">
+                    <img class="servicos-img" src="img/direito-criminal.png" >
+                    <p class="servicos-descricao">Direito Criminal</p>
+                </div>
+                <div class="servico-item col-md-3  col-sm-6 ">
+                    <img class="servicos-img" src="img/Direito-ambiental.png" >
+                    <p class="servicos-descricao">Direito Ambiental</p>
+                </div>
+                <div class="servico-item col-md-3  col-sm-6 ">
+                    <img class="servicos-img" src="img/direito-contratual.png" >
+                    <p class="servicos-descricao">Direito Contratual</p>
+                </div>
+                <div class="servico-item col-md-3  col-sm-6 ">
+                    <img class="servicos-img" src="img/Direito-de-Familia.png" >
+                    <p class="servicos-descricao">Direito de Família e Sucessões</p>
+                </div>
             </div>
         </div>
     </section>
@@ -258,23 +256,23 @@
                     </div>
                 </form>
                 <div class="col-md-12">
-                    
+
                     <div class="mensagem-alerta"><?php echo $msg ?></div>
                 </div>
             </div>
-                <div class="col-md-4">
-                    <div class="informacoes-contato">
-                        <div class="informacoes-contato  espaco text-left">
-                            <p>Fone: (062) 3636-0111</p>
+            <div class="col-md-4">
+                <div class="informacoes-contato">
+                    <div class="informacoes-contato  espaco text-left">
+                        <p>Fone: (062) 3636-0111</p>
 
-                            <p>Endereço: Rua 88-B, nº 73, Setor Sul, Goiânia - GO, 74085-030</p>
+                        <p>Endereço: Rua 88-B, nº 73, Setor Sul, Goiânia - GO, 74085-030</p>
 
-                            <p>grupoconceito@grupoconceito.com</p>
-                        </div>
+                        <p>grupoconceito@grupoconceito.com</p>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 </section>
 
 

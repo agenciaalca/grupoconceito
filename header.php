@@ -23,7 +23,7 @@
 
     <!-- Fixed logomarca -->
     <div class="logomarca">
-        <a class="logo"href="#home"><img src="img/logo.png" height="80px" align="center"></a>
+        <a class="logo"href="#home"><img src="img/logomarca.png" height="80px" align="center"></a>
     </div>
 
     <!-- Navbar -->
@@ -40,7 +40,7 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="#grupo">O Grupo</a></li>
-                    <li><a href="#serviços">Serviços</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
                     <li><a href="#clientes">Clientes</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
