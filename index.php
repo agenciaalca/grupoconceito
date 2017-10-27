@@ -27,7 +27,6 @@
                     <p>A transparência é a base de nosso trabalho</p>
                 </div>
             </div>
-
         </div>
 
         <!-- Controls -->
@@ -52,7 +51,7 @@
                 <h1>O Grupo</h1>
                 <hr id="hr1"><hr id="hr2">
             </div>
-            <div id="myCarousel" class="carousel slide conteudo-grupo" data-ride="carousel">
+            <div id="myCarouselCliente" class="carousel slide conteudo-grupo" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -104,6 +103,7 @@
             </div>
         </div>
     </section><!--  o grupo conceito -->
+    
 
     <section id="servicos" class="servicos">
         <div class="row">
@@ -151,62 +151,55 @@
         </div>
     </section>
 
-    <section id="clientes" class="clientes content">
+    <section id="clientes" class="clientes">
         <div class="row">
             <div class="titulos-de-contexto">
                 <h1>Clientes</h1>
                 <hr id="hr1"><hr id="hr2">
             </div>
         </div>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+        <div id="second-carousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#second-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#second-carousel" data-slide-to="1"></li>
+                <li data-target="#second-carousel" data-slide-to="2"></li>
             </ol>
 
             <!-- Wrapper for slides -->
-            <div class="carousel-inner">
+            <div class="carousel-inner ">
                 <div class="item active">
-                    <div class="conteudo-de-texto  espaco col-md-8 col-sm-6">
-                        <p>A nossa missão é resolver problemas e solucionar necessidades de marketing de
-                            empresas e profissionais liberais que procuram agregar valor ao seu produto/serviço e
-                            alcançar mais competitividade no mercado garantindo uma boa imagem corporativa.</p>
-                    </div>
-                    <div class="conteudo-de-texto  espaco col-md-4 col-sm-6">
-                        <img class="thumbnail imagem-carousel" src="img/grupo.png">
-                        <p><b>Nome</b>Empresa.</p>
+                    <div class="conteudo-de-texto">
+                        <blockquote>"Muito bom saber que existem empresas de bem para ajudar
+                            as pessoas menos instruídas sobre as leis e direitos humanos. 
+                            O Grupo Conceito é uma delas, obrigado!" - <p>Luiz Ângelo </p></blockquote> 
+                        <img class="img-rounded" src="img/clientes/credmig.png">
                     </div>
                 </div>
                 <div class="item">
-                    <div class="conteudo-de-texto col-md-8 col-sm-6">
-                        <p>A nossa missão é resolver problemas e solucionar necessidades de marketing de
-                            empresas e profissionais liberais que procuram agregar valor ao seu produto/serviço e
-                            alcançar mais competitividade no mercado garantindo uma boa imagem corporativa.</p>
-                    </div>
-                    <div class="conteudo-de-texto col-md-4 col-sm-6">
-                        <img class="thumbnail imagem-carousel" src="img/grupo.png">
-                        <p><b>Nome</b>Empresa.</p>
+                    <div class="conteudo-de-texto">
+                        <blockquote>"Entre todas as qualidades do Grupo Conceito, 
+                            as que mais me surpreendeu foram à dedicação e confiança em que nos passaram.
+                            Estão de parabéns!" - <p>Edilson Pereira</p></blockquote> 
+                        <img class="img-rounded" src="img/clientes/estamparia.png" >
                     </div>
                 </div>
                 <div class="item">
-                    <div class="conteudo-de-texto col-md-8 col-sm-6">
-                        <p>A nossa missão é resolver problemas e solucionar necessidades de marketing de
-                            empresas e profissionais liberais que procuram agregar valor ao seu produto/serviço e
-                            alcançar mais competitividade no mercado garantindo uma boa imagem corporativa.</p>
-                    </div>
-                    <div class="conteudo-de-texto col-md-4 col-sm-6">
-                        <img class="thumbnail imagem-carousel" src="img/grupo.png">
-                        <p><b>Nome</b>Empresa.</p>
+                    <div class="conteudo-de-texto">
+                        <blockquote>"O Grupo Conceito atendeu com excelência às minhas necessidade em um 
+                            momento que eu precisava de advogados de confiança. Recomendo o trabalho deles." - <p>Weliton Leão </p></blockquote> 
+                        <img class="img-rounded" src="img/clientes/esquina-88.png" >
                     </div>
                 </div>
 
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev"></a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next"></a>
+                <a class="left carousel-control" href="#second-carousel" data-slide="prev"></a>
+                <a class="right carousel-control" href="#second-carousel" data-slide="next"></a>
+
             </div>
         </div>
     </section>
+    
 </div>
 
 <section id="contato" class="contato content">
