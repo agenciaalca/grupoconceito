@@ -7,14 +7,14 @@
 
         <title>Grupo Conceito</title>
 
-        <meta name="description" content="Grupo Conceito"/>
+        <meta name="description" content="Grupo Conceito Consultoria"/>
         <meta name="keywords" content="acessoria"/>
         <meta name="author" content="Agência Alca"/>
         <link rel="shortcut icon" href="img/favicon.png"> 
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <style><?php echo file_get_contents("css/bootstrap.min.css");?></style>
+        <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />-->
+        <link rel="stylesheet" type="text/css" href="css/style.min.css" />
         <link rel="stylesheet" type="text/css" href="css/reset.min.css" />
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
         <!--[if lt IE 9]>
                 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -23,7 +23,7 @@
 
     <!-- Fixed logomarca -->
     <div class="logomarca">
-        <a class="logo"href="#home"><img src="img/logomarca.png" height="80px" align="center"></a>
+        <a class="logo"href="http://grupoconceito.com.br/"><img src="img/logo.png" height="80px" align="center"></a>
     </div>
 
     <!-- Navbar -->
@@ -39,10 +39,10 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#grupo">O Grupo</a></li>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#clientes">Clientes</a></li>
-                    <li><a href="#contato">Contato</a></li>
+                    <li class="active"><a href="/#grupo" class="scrollSuave">O Grupo</a></li>
+                    <li><a href="/#servicos" class="scrollSuave">Serviços</a></li>
+                    <li><a href="/#clientes" class="scrollSuave">Clientes</a></li>
+                    <li><a href="/#contato" class="scrollSuave">Contato</a></li>
                 </ul>
             </div>
         </div>

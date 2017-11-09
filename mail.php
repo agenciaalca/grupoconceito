@@ -13,8 +13,8 @@ if (isset($_POST['submit']) && $_POST['submit'] == 'ENVIAR') {
             . "\nTelefone: " . $telefone
             . "\nMensagem: " . $mensagem;
 
-    $recipient = "cristiane@agenciaalca.com";
-    $subject = "Formulário de Contato - Grupo Conceito";
+    $recipient = "contato@grupoconceito.com.br";
+    $subject = "Formulário de Contato - Site Grupo Conceito";
     $mailheader = "From: $email \r\n";
 
     if (mail($recipient, $subject, $formcontent, $mailheader)) {

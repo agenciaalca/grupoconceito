@@ -12,6 +12,8 @@
 
 .container{
     max-width: 900px!important;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 body{
@@ -224,16 +226,12 @@ h1 .titulos-de-contexto,
 .imagem-destacada{
     margin-bottom: 20px;
 }
-.container .imagem-destacada{
-    padding-left: 0;
-    padding-right: 0;
-}
 .imagem-destacada img{
-    max-height: 300px;
-
+    width: 900px;
+    height: 300px;
 }
 .conteudo{
-
+    
     text-align: justify;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -363,13 +361,11 @@ footer .copyright{
 
 footer .copyright a:hover,
 footer .copyright a:active{
-    color: #00d287;
+    color: #eea236;
 }
 
 
 @media only screen and (max-width: 800px) {
-
-
     .espaco{
         padding-top: 20px;
     }

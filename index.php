@@ -2,26 +2,33 @@
 <?php include_once 'mail.php'; ?>
 
 <div id="slider" class="slider">
-    <div id="home-carousel" class="carousel slide" data-ride="carousel">
+    <div id="sliderCarousel" class="carousel slide" data-ride="carousel">
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="img/grupo-conceito-1.jpg">
+                <img class="hidden-xs" src="img/slider/grupo-conceito-1.jpg">
+                <img class="hidden-sm hidden-md hidden-lg" src="img/slider/grupo-conceito-1-mobile.jpg" >
+
                 <div class="carousel-caption titulos-de-contexto">
                     <h1>Cliente satisfeito</h1>
                     <p>Atendimento de alto padrão com resultados reais</p>
                 </div>
             </div>
+
             <div class="item">
-                <img src="img/grupo-conceito-2.jpg" >
+                <img class="hidden-xs" src="img/slider/grupo-conceito-2.jpg" >
+                <img class="hidden-sm hidden-md hidden-lg" src="img/slider/grupo-conceito-2-mobile.jpg" >
+
                 <div class="carousel-caption titulos-de-contexto">
                     <h1>Somos especialistas</h1>
                     <p>Em qualquer circunstância, o nosso principal foco são os seus direitos</p>
                 </div>
             </div>
             <div class="item">
-                <img src="img/grupo-conceito-3.jpg" >
+                <img class="hidden-xs" src="img/slider/grupo-conceito-3.png" >
+                <img class="hidden-sm hidden-md hidden-lg" src="img/slider/grupo-conceito-3-mobile.png" >
+
                 <div class="carousel-caption titulos-de-contexto">
                     <h1>Construindo confiança</h1>
                     <p>A transparência é a base de nosso trabalho</p>
@@ -30,11 +37,11 @@
         </div>
 
         <!-- Controls -->
-        <a class="left carousel-control" href="#home-carousel" role="button" data-slide="prev">
+        <a class="left carousel-control" href="#sliderCarousel" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="right carousel-control" href="#home-carousel" role="button" data-slide="next">
+        <a class="right carousel-control" href="#sliderCarousel" role="button" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
@@ -51,7 +58,7 @@
                 <h1>O Grupo</h1>
                 <hr id="hr1"><hr id="hr2">
             </div>
-            <div id="myCarouselCliente" class="carousel slide conteudo-grupo" data-ride="carousel">
+            <div id="myCarousel" class="carousel slide conteudo-grupo" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -103,7 +110,7 @@
             </div>
         </div>
     </section><!--  o grupo conceito -->
-    
+
 
     <section id="servicos" class="servicos">
         <div class="row">
@@ -115,38 +122,73 @@
 
         <div class="bloco-servico ">
             <div class="row">
-                <div class="servico-item col-md-3">
-                    <img class="servicos-img" src="img/direito-trabalhista.png" >
-                    <p class="servicos-descricao">Direito Trabalhista</p>
+                <a href="direitotrabalhista.php">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="servico-item">
+                        <img class="servicos-img" src="img/serviços/direito-trabalhista.png" >
+                        <p class="servicos-descricao">Direito Trabalhista</p>
+                    </div>
                 </div>
-                <div class="servico-item col-md-3">
-                    <img class="servicos-img" src="img/direito-civil.png" >
-                    <p class="servicos-descricao">Direito Civil</p>
-                </div>
-                <div class="servico-item col-md-3">
-                    <img class="servicos-img" src="img/Direito-Tributa.png" >
-                    <p class="servicos-descricao">Direito Tributário</p>
-                </div>
-                <div class="servico-item col-md-3">
-                    <img class="servicos-img" src="img/Direito-do-consumidor.png" >
-                    <p class="servicos-descricao">Direito do Consumidor</p>
-                </div>
-                <div class="servico-item col-md-3 col-sm-6 ">
-                    <img class="servicos-img" src="img/direito-criminal.png" >
-                    <p class="servicos-descricao">Direito Criminal</p>
-                </div>
-                <div class="servico-item col-md-3  col-sm-6 ">
-                    <img class="servicos-img" src="img/Direito-ambiental.png" >
-                    <p class="servicos-descricao">Direito Ambiental</p>
-                </div>
-                <div class="servico-item col-md-3  col-sm-6 ">
-                    <img class="servicos-img" src="img/direito-contratual.png" >
-                    <p class="servicos-descricao">Direito Contratual</p>
-                </div>
-                <div class="servico-item col-md-3  col-sm-6 ">
-                    <img class="servicos-img" src="img/Direito-de-Familia.png" >
-                    <p class="servicos-descricao">Direito de Família e Sucessões</p>
-                </div>
+                </a>
+                <a href="direitocivil.php">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="servico-item">
+                            <img class="servicos-img" src="img/serviços/direito-civil.png" >
+                            <p class="servicos-descricao">Direito Civil</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="direitoimobiliario.php">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="servico-item">
+                            <img class="servicos-img" src="img/serviços/Direito-Tributa.png" >
+                            <p class="servicos-descricao">Direito Imobiliario</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="direitocriminal.php">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="servico-item">
+                            <img class="servicos-img" src="img/serviços/direito-criminal.png" >
+                            <p class="servicos-descricao">Direito Criminal</p>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+            <div class="row">
+                <a href="direitoambiental.php">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="servico-item">
+                            <img class="servicos-img" src="img/serviços/Direito-ambiental.png" >
+                            <p class="servicos-descricao">Direito Ambiental</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="direitocontratual.php">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="servico-item">
+                            <img class="servicos-img" src="img/serviços/direito-contratual.png" >
+                            <p class="servicos-descricao">Direito Contratual</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="direitofamiliar.php">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="servico-item">
+                            <img class="servicos-img" src="img/serviços/Direito-de-Familia.png" >
+                            <p class="servicos-descricao">Direito de Família e Sucessões</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="direitoconsumidor.php">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="servico-item">
+                            <img class="servicos-img" src="img/serviços/Direito-do-consumidor.png" >
+                            <p class="servicos-descricao">Direito do Consumidor</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -199,74 +241,9 @@
             </div>
         </div>
     </section>
-    
+
 </div>
 
-<section id="contato" class="contato content">
-
-    <div class="container">
-        <div class="row">
-            <div class="titulos-de-contexto ">
-                <h1>Contato</h1>
-                <hr id="hr1"><hr id="hr2">
-                <h3>Entre em contato conosco e tire suas dúvidas.</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8 ">
-                <form method="post" action="index.php#contato" name="formulario-contato" data-toggle="validator" role="form">
-                    <div class="col-md-6">
-                        <div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" name="nome" id="nome" value="" placeholder="nome*" required />
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" name="email" id="email" value="" placeholder="email*" required
-                                       data-error="Por favor, informe um e-mail válido.">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="form-group">
-                                <input type="number" class="form-control" name="telefone" id="telefone" value="" placeholder="telefone*" required
-                                       data-error="Por favor, somente números.">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 ">
-                        <div class="form-group">
-                            <textarea class="form-control" id="exampleTextarea" rows="4" 
-                                      id="message" name="mensagem" placeholder="mensagem*" required></textarea>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                        <div class="botao ">
-                            <button class="btn btn-primary btn-block" id="submit" name="submit" type="submit" value="ENVIAR">Enviar Mensagem</button>
-                        </div> 
-                    </div>
-                </form>
-                <div class="col-md-12">
-
-                    <div class="mensagem-alerta"><?php echo $msg ?></div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="informacoes-contato">
-                    <div class="informacoes-contato  espaco text-left">
-                        <p>Fone: (062) 3636-0111</p>
-
-                        <p>Endereço: Rua 88-B, nº 73, Setor Sul, Goiânia - GO, 74085-030</p>
-
-                        <p>grupoconceito@grupoconceito.com</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 
 
