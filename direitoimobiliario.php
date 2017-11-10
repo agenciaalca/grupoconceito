@@ -15,7 +15,7 @@
         Despejo, reintegrações de Posse, Manutenções de Posse, Imissão de Posse, Anulatória de
         Leilão Judicial e Extrajudicial, Elaboração e Análise de Contratos em Geral, etc. </p>
         <div class="col-md-2 col-md-offset-10 text-right">
-            <a class="btn btn-custom text-right" href="http://grupoconceito.com.br">Voltar </a>
+            <a class="btn btn-custom text-right" href="/#servicos">Voltar </a>
         </div>
     </div>
 </div>

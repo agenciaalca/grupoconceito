@@ -3,7 +3,7 @@
 <div class="container">
     <div class="conteudo">
         <div class="imagem-destacada">
-            <img class="img-responsive" src="img/serviços/single_Direito_Contratual .jpg" alt="">
+            <img class="img-responsive" src="img/serviços/single_Direito_Contratual.jpg" alt="Direito contratual - Grupo conceito">
         </div>
 
         <div class="titulos-de-contexto text-center">
@@ -14,7 +14,7 @@
         na Elaboração de Contratos Sociais, Discussão Judicial de Contratos, etc.</p>
         
         <div class="col-md-2 col-md-offset-10 text-right">
-            <a class="btn btn-custom text-right" href="http://grupoconceito.com.br">Voltar </a>
+            <a class="btn btn-custom text-right" href="/#servicos">Voltar </a>
         </div>
     </div>
 </div>

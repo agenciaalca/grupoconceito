@@ -11,7 +11,7 @@
         </div>
         Conteudo em breve 
         <div class="col-md-2 col-md-offset-10 text-right">
-            <a class="btn btn-custom text-right" href="http://grupoconceito.com.br">Voltar </a>
+            <a class="btn btn-custom text-right" href="/#servicos">Voltar </a>
         </div>
     </div>
 </div>
