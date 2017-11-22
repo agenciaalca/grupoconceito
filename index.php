@@ -2,11 +2,13 @@
 <?php include_once 'mail.php'; ?>
 
 <div id="slider" class="slider">
-    <div id="sliderCarousel" class="carousel slide" data-ride="carousel">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
+
             <div class="item active">
+
                 <img class="hidden-xs" src="img/slider/grupo-conceito-1.jpg">
                 <img class="hidden-sm hidden-md hidden-lg" src="img/slider/grupo-conceito-1-mobile.jpg" >
 
@@ -34,17 +36,20 @@
                     <p>A transparência é a base de nosso trabalho</p>
                 </div>
             </div>
+
+             <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
         </div>
 
         <!-- Controls -->
-        <a class="left carousel-control" href="#sliderCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#sliderCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+
     </div>
 </div>
 
@@ -123,12 +128,12 @@
         <div class="bloco-servico ">
             <div class="row">
                 <a href="direitotrabalhista.php">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="servico-item">
-                        <img class="servicos-img" src="img/serviços/direito-trabalhista.png" >
-                        <p class="servicos-descricao">Direito Trabalhista</p>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="servico-item">
+                            <img class="servicos-img" src="img/serviços/direito-trabalhista.png" >
+                            <p class="servicos-descricao">Direito Trabalhista</p>
+                        </div>
                     </div>
-                </div>
                 </a>
                 <a href="direitocivil.php">
                     <div class="col-md-3 col-sm-6 col-xs-12">

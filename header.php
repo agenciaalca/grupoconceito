@@ -11,8 +11,8 @@
         <meta name="keywords" content="acessoria"/>
         <meta name="author" content="Agência Alca"/>
         <link rel="shortcut icon" href="img/favicon.png"> 
-        <style><?php echo file_get_contents("css/bootstrap.min.css");?></style>
-        <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />-->
+        <style><?php echo file_get_contents("css/bootstrap.min.css"); ?></style>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.min.css" />
         <link rel="stylesheet" type="text/css" href="css/reset.min.css" />
 
